@@ -1,7 +1,7 @@
 {
   "name": "react-wise-spender",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://egertonk.github.io/react-wise-spender/",
   "dependencies": {
     "@babel/runtime": "^7.15.4",
