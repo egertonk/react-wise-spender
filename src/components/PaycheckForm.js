@@ -43,8 +43,6 @@ function PaycheckForm() {
 
 
     const handleAmount = (amount) => {
-        let decimal=  /^[-+]?[0-9]+\.[0-9]+$/; 
-
         if(amount.target.value >= 0){
             setUserAmount(amount.target.value);
             setRent_Amount((amount.target.value * THIRTY_PERCENT).toFixed(2));

@@ -1,5 +1,5 @@
 import './App.css';
-import React, { Component }  from 'react';
+import React from 'react'
 import PaycheckForm from './components/PaycheckForm.js';
 import PaycheckHeader from './components/PaycheckHeader.js';
 import PaycheckFooter from './components/PaycheckFooter.js';
