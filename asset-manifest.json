@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-wise-spender/static/css/main.a06a1c4e.chunk.css",
+    "main.css": "/react-wise-spender/static/css/main.6a70eafb.chunk.css",
     "main.js": "/react-wise-spender/static/js/main.de0e88ed.chunk.js",
     "main.js.map": "/react-wise-spender/static/js/main.de0e88ed.chunk.js.map",
     "runtime-main.js": "/react-wise-spender/static/js/runtime-main.60274761.js",
@@ -11,17 +11,17 @@
     "static/js/3.eae214ca.chunk.js": "/react-wise-spender/static/js/3.eae214ca.chunk.js",
     "static/js/3.eae214ca.chunk.js.map": "/react-wise-spender/static/js/3.eae214ca.chunk.js.map",
     "index.html": "/react-wise-spender/index.html",
-    "precache-manifest.cb4c5861289e2d4399b8ffbcabe62e65.js": "/react-wise-spender/precache-manifest.cb4c5861289e2d4399b8ffbcabe62e65.js",
+    "precache-manifest.fd42739bb90da420500a9d8b75700050.js": "/react-wise-spender/precache-manifest.fd42739bb90da420500a9d8b75700050.js",
     "service-worker.js": "/react-wise-spender/service-worker.js",
     "static/css/2.171a7357.chunk.css.map": "/react-wise-spender/static/css/2.171a7357.chunk.css.map",
-    "static/css/main.a06a1c4e.chunk.css.map": "/react-wise-spender/static/css/main.a06a1c4e.chunk.css.map",
+    "static/css/main.6a70eafb.chunk.css.map": "/react-wise-spender/static/css/main.6a70eafb.chunk.css.map",
     "static/js/2.df7df694.chunk.js.LICENSE.txt": "/react-wise-spender/static/js/2.df7df694.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.60274761.js",
     "static/css/2.171a7357.chunk.css",
     "static/js/2.df7df694.chunk.js",
-    "static/css/main.a06a1c4e.chunk.css",
+    "static/css/main.6a70eafb.chunk.css",
     "static/js/main.de0e88ed.chunk.js"
   ]
 }
