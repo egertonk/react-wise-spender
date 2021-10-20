@@ -1,5 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.money{
+  color: white;
+}
+
 .App {
+  background-color: #ede9ed5c;
+  border: 12px solid #a5a79b!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: initial;
   text-align: center;
+  margin: 128px auto;
+  margin-top: 1%;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  background-color: burlywood;
 }
 
 .App-logo {
@@ -7,25 +31,91 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-Form, .App-header {
+  margin-bottom: 32px;
+}
+
+.row, .input-row{
+  display: block;
+  text-align: left;
+  font-weight: 500;
+}
+
+.input-row{
+  padding: 5px 32px 5px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 5px solid #d6ebd6;
+  outline: none;
+  width: 300px;
+  background: white;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin-top: 10px;
+  color: brown;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: smaller;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.sub-button{
+  width: 100%;
+  color: #fff;
+  background-color: #836a1c;
+  border-color: #fdec0d;
+  margin-top: 2%;
+  font-weight: bold;
+}
+
+.labels{
+  width: 100%;
+  text-align: start;
+  color: brown;
+  font-weight: bold;
+}
+
+.result, .card-header{
+  font-weight: bold;
+}
+
+#result-div{
+  display: none;
+}
+
+.list-group-flush > .list-group-item {
+  border-width: 0 0 1px;
+  text-align: left;
+}
+
+.icons{
+  background-color: #a4a79b;
+  font-weight: bold;
+}
+
+.close-icon{
+  cursor: pointer;
+  color: white;
+  font-size: 150%;
+}
+
+.close-icon:hover{
+  color: #a52a2a;
+}
+
+.row {
+  --bs-gutter-x: 0rem; 
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 
 @keyframes App-logo-spin {
